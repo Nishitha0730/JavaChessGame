@@ -27,6 +27,10 @@ public class ChessBoard {
         board[7][2] = new Bishop(PieceColor.WHITE, new Position(7, 2));
         board[7][5] = new Bishop(PieceColor.WHITE, new Position(7, 5));
 
+        // Place Queens on the board
+        board[0][3] = new Queen(PieceColor.BLACK, new Position(0, 3));
+        board[7][3] = new Queen(PieceColor.WHITE, new Position(7, 3));
+
 
     }
 }
