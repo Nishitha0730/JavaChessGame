@@ -1,4 +1,5 @@
-
+import piece.Piece;
+import piece.PieceColor;
 
 public class ChessBoard {
     private Piece[][] board;
