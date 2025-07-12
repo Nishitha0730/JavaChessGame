@@ -31,6 +31,8 @@ public class ChessBoard {
         board[0][3] = new Queen(PieceColor.BLACK, new Position(0, 3));
         board[7][3] = new Queen(PieceColor.WHITE, new Position(7, 3));
 
-
+        // Place Kings on the board
+        board[0][4] = new King(PieceColor.BLACK, new Position(0, 4));
+        board[7][4] = new King(PieceColor.WHITE, new Position(7, 4));
     }
 }
