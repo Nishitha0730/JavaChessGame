@@ -34,5 +34,11 @@ public class ChessBoard {
         // Place Kings on the board
         board[0][4] = new King(PieceColor.BLACK, new Position(0, 4));
         board[7][4] = new King(PieceColor.WHITE, new Position(7, 4));
+
+        // Place Pawns on the board
+        for (int i = 0; i < 8; i++) {
+            board[1][i] = new Pawn(PieceColor.BLACK, new Position(1, i));
+            board[6][i] = new Pawn(PieceColor.WHITE, new Position(6, i));
+        }
     }
 }
