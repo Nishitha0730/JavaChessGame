@@ -1,5 +1,7 @@
 package piece;
 
+import Board.Position;
+
 public class Bishop extends Piece {
     public Bishop(PieceColor color, Position position) {
         super(color, position);

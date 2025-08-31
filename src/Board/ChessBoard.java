@@ -1,5 +1,7 @@
-import piece.Piece;
-import piece.PieceColor;
+package Board;
+
+import piece.*;
+
 
 public class ChessBoard {
     private Piece[][] board;

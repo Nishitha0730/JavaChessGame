@@ -1,14 +1,14 @@
 package piece;
 
-import javax.swing.text.Position;
+import Board.Position;
 
-public class Piece {
-    public abstract class Piece(){
-        protected Position position;
-        protected PieceColor color;
-    }
 
-    public Piece(Piece color. Position position){
+public abstract class Piece{
+    protected Position position;
+    protected PieceColor color;
+
+
+    public Piece(PieceColor color, Position position){
         this.color = color;
         this.position = position;
     }

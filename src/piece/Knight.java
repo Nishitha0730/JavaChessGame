@@ -1,5 +1,7 @@
 package piece;
 
+import Board.Position;
+
 public class Knight extends Piece {
     public Knight(PieceColor color, Position position) {
         super(color, position);

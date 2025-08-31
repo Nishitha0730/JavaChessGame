@@ -1,6 +1,6 @@
 package piece;
 
-import javax.swing.text.Position;
+import Board.Position;
 
 public class Pawn extends Piece {
     public Pawn(PieceColor color , Position position) {
@@ -37,5 +37,4 @@ public class Pawn extends Piece {
 
         return false;
     }
-}
 }
